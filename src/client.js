@@ -70,11 +70,11 @@ class Flare extends Client {
     this.token = this.config.token;
     this.prefix = this.config.prefix;
     this.owners = this.config.owners;
-    this.web_cmd = "https://discord.com/api/webhooks/1131821908069994536/MTFktlQ6UQNr1yrZupLXlQycvsnQDqLeugj2YXnXBITEixOIMgQnt-MRzXOAVh_--Sbd";
+    this.web_cmd = "https://discord.com/api/webhooks/1246880013840679014/Qub_CdUxNDk1WZu6MEjZVNeHQ0SF3gaqBxf0z4b1bnQDfovEI6PuGqPJ2WeRCSeFjO14";
     this.web_err = "";
-    this.web_join = "https://discord.com/api/webhooks/1223199070525587476/X-13MAaQRsbWItpw_f3JVccqRsYlToFedikTOcEQeTZHLJvhY4qvMxrvizhUw2HaOPC0";
-    this.web_leave = "https://discord.com/api/webhooks/1130529706643562677/seUmsHBJ4fHLVgT0V8r_qgFkXcqOrHN9pROfpaL_P8qGHdRSlRqu5kmG4gwUfMKatcU1";
-    this.web_np = "https://discord.com/api/webhooks/1131827085736943626/PEDLxavqk8k5SLTW7yWQ2iXc-HmYE-gljhIlcBD-YXirtWsNHtj4VZGOhYSgbSnNPR05";
+    this.web_join = "https://discord.com/api/webhooks/1246880013840679014/Qub_CdUxNDk1WZu6MEjZVNeHQ0SF3gaqBxf0z4b1bnQDfovEI6PuGqPJ2WeRCSeFjO14";
+    this.web_leave = "https://discord.com/api/webhooks/1246880013840679014/Qub_CdUxNDk1WZu6MEjZVNeHQ0SF3gaqBxf0z4b1bnQDfovEI6PuGqPJ2WeRCSeFjO14";
+    this.web_np = "https://discord.com/api/webhooks/1246880013840679014/Qub_CdUxNDk1WZu6MEjZVNeHQ0SF3gaqBxf0z4b1bnQDfovEI6PuGqPJ2WeRCSeFjO14";
     this.web_bl = "";
     this.web_gban = "";
     
