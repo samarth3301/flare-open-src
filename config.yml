@@ -1,11 +1,11 @@
 # @format
 bot:
-  ID: '990134647335813160'
-  TOKEN: 'MTI0Njc5ODYzMzAwNTc0ODI3Ng.GnIP97.drTGOIK_yq4rLPqnfVQgB8NDq0alSbbPGIMhOw'
+  ID: ''
+  TOKEN: ''
   PREFIX: '!'
   EMBED_COLOR: '#2f3136'
   OWNERS: ['1139950107995934863', '1220040643766915112']
-  MONGO: 'mongodb://atlas-sql-665c62a9ae1bf17086bf1a35-bisn4.a.query.mongodb.net/sample_mflix?ssl=true&authSource=admin'
+  MONGO: ''
 links:
   INVITE: 'https://discord.com/oauth2/authorize?client_id=1032300215664914523&permissions=8&scope=applications.commands%20bot'
   SUPPORT: 'https://discord.gg/flare'
