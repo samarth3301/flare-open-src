@@ -201,10 +201,6 @@ module.exports = {
     .setDescription(`\n\`${pfx}help <command>\` - Get help on a specific command.\n\`\`\`css\n<> - Required Argument\n[] - Optional Argument\`\`\``)
       .addFields([{
         name: '<:e1141:1144300606413095053>__**Modules**__', value: `> ${client.emoji.antinuke} **[Antinuke](https://flarebot.pro)**\n> ${client.emoji.mod} **[Moderation](https://flarebot.pro)**\n> ${client.emoji.greet} **[Welcomer](https://flarebot.pro)**\n> ${client.emoji.vc} **[Voice](https://flarebot.pro)**\n> ${client.emoji.media} **[Media](https://flarebot.pro)**\n> ${client.emoji.utility} **[Extra](https://flarebot.pro)**`
-                  },
-                  {
-                    name: `<:zz_blacklink:1124890038329675858> __**Links**__`,
-                    value: `[Invite](${client.invite}) | [Support](${client.support}) | [Vote](${client.vote}) | [Website](https://flarebot.pro)`
                   }
                  ])
     let help = await message.channel.send({ embeds: [em], components: [homedis, menu] })
