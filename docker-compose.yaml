@@ -1,9 +1,15 @@
+version: "3.8"
+
 services:
-  server:
+  flare:
     build:
       context: .
-    restart: unless-stopped
-    environment:
-      NODE_ENV: production
     ports:
-      - 3000:3000
+      - "3000:3000"
+    restart: always
+
+    environment:
+      - NODEENV
+
+    volumes:
+      - ./logs:/app/logs
